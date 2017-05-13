@@ -1,0 +1,541 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DE50D02A1EC7362500ED3986 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DE50D0291EC7362500ED3986 /* main.m */; };
+		DE50D02D1EC7362500ED3986 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DE50D02C1EC7362500ED3986 /* AppDelegate.m */; };
+		DE50D0301EC7362500ED3986 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE50D02F1EC7362500ED3986 /* ViewController.m */; };
+		DE50D0331EC7362500ED3986 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE50D0311EC7362500ED3986 /* Main.storyboard */; };
+		DE50D0351EC7362500ED3986 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE50D0341EC7362500ED3986 /* Assets.xcassets */; };
+		DE50D0381EC7362500ED3986 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE50D0361EC7362500ED3986 /* LaunchScreen.storyboard */; };
+		DE50D0431EC7362500ED3986 /* CheckAnagramTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DE50D0421EC7362500ED3986 /* CheckAnagramTests.m */; };
+		DE50D04E1EC7362500ED3986 /* CheckAnagramUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DE50D04D1EC7362500ED3986 /* CheckAnagramUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DE50D03F1EC7362500ED3986 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DE50D01D1EC7362400ED3986 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DE50D0241EC7362500ED3986;
+			remoteInfo = CheckAnagram;
+		};
+		DE50D04A1EC7362500ED3986 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DE50D01D1EC7362400ED3986 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DE50D0241EC7362500ED3986;
+			remoteInfo = CheckAnagram;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DE50D0251EC7362500ED3986 /* CheckAnagram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CheckAnagram.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE50D0291EC7362500ED3986 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DE50D02B1EC7362500ED3986 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DE50D02C1EC7362500ED3986 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DE50D02E1EC7362500ED3986 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DE50D02F1EC7362500ED3986 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DE50D0321EC7362500ED3986 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DE50D0341EC7362500ED3986 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DE50D0371EC7362500ED3986 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DE50D0391EC7362500ED3986 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DE50D03E1EC7362500ED3986 /* CheckAnagramTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CheckAnagramTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE50D0421EC7362500ED3986 /* CheckAnagramTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CheckAnagramTests.m; sourceTree = "<group>"; };
+		DE50D0441EC7362500ED3986 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DE50D0491EC7362500ED3986 /* CheckAnagramUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CheckAnagramUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE50D04D1EC7362500ED3986 /* CheckAnagramUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CheckAnagramUITests.m; sourceTree = "<group>"; };
+		DE50D04F1EC7362500ED3986 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DE50D0221EC7362500ED3986 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE50D03B1EC7362500ED3986 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE50D0461EC7362500ED3986 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DE50D01C1EC7362400ED3986 = {
+			isa = PBXGroup;
+			children = (
+				DE50D0271EC7362500ED3986 /* CheckAnagram */,
+				DE50D0411EC7362500ED3986 /* CheckAnagramTests */,
+				DE50D04C1EC7362500ED3986 /* CheckAnagramUITests */,
+				DE50D0261EC7362500ED3986 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DE50D0261EC7362500ED3986 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DE50D0251EC7362500ED3986 /* CheckAnagram.app */,
+				DE50D03E1EC7362500ED3986 /* CheckAnagramTests.xctest */,
+				DE50D0491EC7362500ED3986 /* CheckAnagramUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DE50D0271EC7362500ED3986 /* CheckAnagram */ = {
+			isa = PBXGroup;
+			children = (
+				DE50D02B1EC7362500ED3986 /* AppDelegate.h */,
+				DE50D02C1EC7362500ED3986 /* AppDelegate.m */,
+				DE50D02E1EC7362500ED3986 /* ViewController.h */,
+				DE50D02F1EC7362500ED3986 /* ViewController.m */,
+				DE50D0311EC7362500ED3986 /* Main.storyboard */,
+				DE50D0341EC7362500ED3986 /* Assets.xcassets */,
+				DE50D0361EC7362500ED3986 /* LaunchScreen.storyboard */,
+				DE50D0391EC7362500ED3986 /* Info.plist */,
+				DE50D0281EC7362500ED3986 /* Supporting Files */,
+			);
+			path = CheckAnagram;
+			sourceTree = "<group>";
+		};
+		DE50D0281EC7362500ED3986 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DE50D0291EC7362500ED3986 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DE50D0411EC7362500ED3986 /* CheckAnagramTests */ = {
+			isa = PBXGroup;
+			children = (
+				DE50D0421EC7362500ED3986 /* CheckAnagramTests.m */,
+				DE50D0441EC7362500ED3986 /* Info.plist */,
+			);
+			path = CheckAnagramTests;
+			sourceTree = "<group>";
+		};
+		DE50D04C1EC7362500ED3986 /* CheckAnagramUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DE50D04D1EC7362500ED3986 /* CheckAnagramUITests.m */,
+				DE50D04F1EC7362500ED3986 /* Info.plist */,
+			);
+			path = CheckAnagramUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DE50D0241EC7362500ED3986 /* CheckAnagram */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE50D0521EC7362500ED3986 /* Build configuration list for PBXNativeTarget "CheckAnagram" */;
+			buildPhases = (
+				DE50D0211EC7362500ED3986 /* Sources */,
+				DE50D0221EC7362500ED3986 /* Frameworks */,
+				DE50D0231EC7362500ED3986 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CheckAnagram;
+			productName = CheckAnagram;
+			productReference = DE50D0251EC7362500ED3986 /* CheckAnagram.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DE50D03D1EC7362500ED3986 /* CheckAnagramTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE50D0551EC7362500ED3986 /* Build configuration list for PBXNativeTarget "CheckAnagramTests" */;
+			buildPhases = (
+				DE50D03A1EC7362500ED3986 /* Sources */,
+				DE50D03B1EC7362500ED3986 /* Frameworks */,
+				DE50D03C1EC7362500ED3986 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DE50D0401EC7362500ED3986 /* PBXTargetDependency */,
+			);
+			name = CheckAnagramTests;
+			productName = CheckAnagramTests;
+			productReference = DE50D03E1EC7362500ED3986 /* CheckAnagramTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DE50D0481EC7362500ED3986 /* CheckAnagramUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE50D0581EC7362500ED3986 /* Build configuration list for PBXNativeTarget "CheckAnagramUITests" */;
+			buildPhases = (
+				DE50D0451EC7362500ED3986 /* Sources */,
+				DE50D0461EC7362500ED3986 /* Frameworks */,
+				DE50D0471EC7362500ED3986 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DE50D04B1EC7362500ED3986 /* PBXTargetDependency */,
+			);
+			name = CheckAnagramUITests;
+			productName = CheckAnagramUITests;
+			productReference = DE50D0491EC7362500ED3986 /* CheckAnagramUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DE50D01D1EC7362400ED3986 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = manojsinghal;
+				TargetAttributes = {
+					DE50D0241EC7362500ED3986 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = WB8U45AGS2;
+						ProvisioningStyle = Automatic;
+					};
+					DE50D03D1EC7362500ED3986 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = WB8U45AGS2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = DE50D0241EC7362500ED3986;
+					};
+					DE50D0481EC7362500ED3986 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = WB8U45AGS2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = DE50D0241EC7362500ED3986;
+					};
+				};
+			};
+			buildConfigurationList = DE50D0201EC7362400ED3986 /* Build configuration list for PBXProject "CheckAnagram" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DE50D01C1EC7362400ED3986;
+			productRefGroup = DE50D0261EC7362500ED3986 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DE50D0241EC7362500ED3986 /* CheckAnagram */,
+				DE50D03D1EC7362500ED3986 /* CheckAnagramTests */,
+				DE50D0481EC7362500ED3986 /* CheckAnagramUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DE50D0231EC7362500ED3986 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE50D0381EC7362500ED3986 /* LaunchScreen.storyboard in Resources */,
+				DE50D0351EC7362500ED3986 /* Assets.xcassets in Resources */,
+				DE50D0331EC7362500ED3986 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE50D03C1EC7362500ED3986 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE50D0471EC7362500ED3986 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DE50D0211EC7362500ED3986 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE50D0301EC7362500ED3986 /* ViewController.m in Sources */,
+				DE50D02D1EC7362500ED3986 /* AppDelegate.m in Sources */,
+				DE50D02A1EC7362500ED3986 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE50D03A1EC7362500ED3986 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE50D0431EC7362500ED3986 /* CheckAnagramTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE50D0451EC7362500ED3986 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE50D04E1EC7362500ED3986 /* CheckAnagramUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DE50D0401EC7362500ED3986 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DE50D0241EC7362500ED3986 /* CheckAnagram */;
+			targetProxy = DE50D03F1EC7362500ED3986 /* PBXContainerItemProxy */;
+		};
+		DE50D04B1EC7362500ED3986 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DE50D0241EC7362500ED3986 /* CheckAnagram */;
+			targetProxy = DE50D04A1EC7362500ED3986 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DE50D0311EC7362500ED3986 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DE50D0321EC7362500ED3986 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DE50D0361EC7362500ED3986 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DE50D0371EC7362500ED3986 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DE50D0501EC7362500ED3986 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DE50D0511EC7362500ED3986 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DE50D0531EC7362500ED3986 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = WB8U45AGS2;
+				INFOPLIST_FILE = CheckAnagram/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = manojsinghal.CheckAnagram;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DE50D0541EC7362500ED3986 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = WB8U45AGS2;
+				INFOPLIST_FILE = CheckAnagram/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = manojsinghal.CheckAnagram;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		DE50D0561EC7362500ED3986 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = WB8U45AGS2;
+				INFOPLIST_FILE = CheckAnagramTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = manojsinghal.CheckAnagramTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CheckAnagram.app/CheckAnagram";
+			};
+			name = Debug;
+		};
+		DE50D0571EC7362500ED3986 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = WB8U45AGS2;
+				INFOPLIST_FILE = CheckAnagramTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = manojsinghal.CheckAnagramTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CheckAnagram.app/CheckAnagram";
+			};
+			name = Release;
+		};
+		DE50D0591EC7362500ED3986 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = WB8U45AGS2;
+				INFOPLIST_FILE = CheckAnagramUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = manojsinghal.CheckAnagramUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CheckAnagram;
+			};
+			name = Debug;
+		};
+		DE50D05A1EC7362500ED3986 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = WB8U45AGS2;
+				INFOPLIST_FILE = CheckAnagramUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = manojsinghal.CheckAnagramUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CheckAnagram;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DE50D0201EC7362400ED3986 /* Build configuration list for PBXProject "CheckAnagram" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE50D0501EC7362500ED3986 /* Debug */,
+				DE50D0511EC7362500ED3986 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DE50D0521EC7362500ED3986 /* Build configuration list for PBXNativeTarget "CheckAnagram" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE50D0531EC7362500ED3986 /* Debug */,
+				DE50D0541EC7362500ED3986 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DE50D0551EC7362500ED3986 /* Build configuration list for PBXNativeTarget "CheckAnagramTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE50D0561EC7362500ED3986 /* Debug */,
+				DE50D0571EC7362500ED3986 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DE50D0581EC7362500ED3986 /* Build configuration list for PBXNativeTarget "CheckAnagramUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE50D0591EC7362500ED3986 /* Debug */,
+				DE50D05A1EC7362500ED3986 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DE50D01D1EC7362400ED3986 /* Project object */;
+}
